@@ -90,7 +90,7 @@ onSearchChanged = (value) => {
         {
           isOpen &&
           <Modal open={ isOpen } onClose={this.toggleModal} >
-            <div style={{ width: 700, height: 700 }}>
+            <div>
             <h2>{ selectedVideo.title }</h2>
             <Player
               autoPlay={true}
