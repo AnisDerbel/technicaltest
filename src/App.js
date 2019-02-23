@@ -20,7 +20,6 @@ class App extends Component {
   componentDidMount = () => {
     let activeVideos = videoList.filter( x => x.active && !x.browseable)
     let grouppedVideos = groupBy(activeVideos,'category')
-    console.log(grouppedVideos)
     this.setState({videoList: grouppedVideos})
   }
 

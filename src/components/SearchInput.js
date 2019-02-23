@@ -16,7 +16,7 @@ class SearchInput extends React.Component {
           id="search-id"
           label="category, title, description, tags"
           className={classes.textField}
-          style={{ width: 400 }}
+          style={{ width: '80%' }}
           onChange={this.handleChange}
         />
     );
